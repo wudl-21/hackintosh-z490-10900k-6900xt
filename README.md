@@ -44,7 +44,7 @@
 * [Hackintool](https://github.com/benbaker76/Hackintool) - debug and system info viewer
 * [MaciASL](https://github.com/acidanthera/MaciASL) - ACPI editing
 ## SMBIOS
-* You may follow [this guide](https://chriswayg.gitbook.io/opencore-visual-beginners-guide/step-by-step/oc-auxiliary-tools#platform-info) Don't know which one to choose? See [this guide](https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html#how-to-decide).
+* You may follow [this guide](https://chriswayg.gitbook.io/opencore-visual-beginners-guide/step-by-step/oc-auxiliary-tools#platform-info). Don't know which one to choose? See [this guide](https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html#how-to-decide).
 ## BIOS Setting
 * You may follow [this guide](https://www.tonymacx86.com/threads/storks-thunderball-ii-build-asus-proart-z490-creator-thunderbolt-3-i5-10400-rx-580.305775/#BIOS).
 ## USB Mapping
