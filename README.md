@@ -52,7 +52,7 @@
 ## GPU Spoofing
 > 6900XT cards of the XTX varaint work fine under macOS >=11. However, the XTXH variant of the 6900XT are not natively supported currently.
 * You may refer to [this repo](https://github.com/TylerLyczak/Unsupported-6900XT-Hackintosh-Fix).
-## LAN firmware patching
+## LAN Firmware Patching
 > The stock firmware for the Intel I225-V used on some of Z490 boards contains an incorrect Subsystem-ID and Subsystem Vendor-ID that causes the LAN issues. If you are interested in the technical backgrounds, you may refer to [this repo](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore/blob/main/I225-V_FIX.md#preparations).
 * The system should work fine without Ethernet connection, but if you do need it, the steps in [this guide](https://benjenq.pixnet.net/blog/post/47745510) are necessary or you may encounter system crashes.
 
