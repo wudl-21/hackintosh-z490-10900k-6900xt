@@ -28,16 +28,15 @@
 | iGPU related | ✔️ | verified: VDA support |
 | dGPU related | 🔶 | need [GPU Spoofing](#gpu-spoofing) |
 | USB | 🔶 | need [USB Mapping](#usb-mapping) |
-| Ethernet | 🔶 | need [LAN firmware patching](#lan-firmware-patching) |
+| Ethernet | 🔶 | need [LAN Firmware Patching](#lan-firmware-patching) |
 | ThunderBolt | ❓ | lack devices |
 * Legend: ✔️=working, 🔶=working but config needed, ❓=not verified
-
-# Before you start
-* To make the EFI working for your machine, you have to modify multiple entries in `config.plist` and ACPI files. Methods like ProperTree can do the job but are not that decent. It is highly recommended to use [these tools](#useful-tools).
 
 # Get it working
 > I have downloaded the EFI folder and copied it into my EFI partition, what else should I do to make my hackintosh working?
 * The EFI provided by this repo works fine with my machine, but it is highly dependent on hardware configuration and subject to changes, so it is recommended that you should make some modification based on your own machine.
+> [!TIP]
+> To make the EFI working for your machine, you have to modify multiple entries in `config.plist` and ACPI files. Methods like ProperTree can do the job but are not that decent. It is highly recommended to use [these tools](#useful-tools).
 
 ## Useful Tools
 * [OpenCore Auxiliary Tools (OCAT)](https://github.com/ic005k/OCAuxiliaryTools) - easy `config.plist` management
@@ -55,6 +54,8 @@
 ## LAN Firmware Patching
 > The stock firmware for the Intel I225-V used on some of Z490 boards contains an incorrect Subsystem-ID and Subsystem Vendor-ID that causes the LAN issues. If you are interested in the technical backgrounds, you may refer to [this repo](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore/blob/main/I225-V_FIX.md#preparations).
 * The system should work fine without Ethernet connection, but if you do need it, the steps in [this guide](https://benjenq.pixnet.net/blog/post/47745510) are necessary or you may encounter system crashes.
+> [!WARNING]
+> The guide above provided multiple approaches but among which it is recommended to implement the DMAR modification using MaciASL. The latest method is to add a kext called `AppleIGC.kexts`, but this may sometimes cause the disk drive being not detected in the disk utility.
 
 # Credit
 * The EFI build provided here is based on [this repo](https://github.com/TylerLyczak/Hackintosh-10850k-ASUS-Z490-XII-Hero-6900XT).
