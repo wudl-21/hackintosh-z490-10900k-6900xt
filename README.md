@@ -24,9 +24,9 @@
 | Audio | ✔️ | verified: on DP |
 | Sleep & Power | ✔️ | verified: Sleep, Wake, Shutdown, Restart |
 | Wireless | ✔️ | verified: WiFi, Bluetooth, AirDrop |
-| OS Features | ✔️ | verified: App Store, iTunes Store. Need [SMBIOS](#smbios) |
 | iGPU related | ✔️ | verified: VDA support |
 | dGPU related | 🔶 | need [GPU Spoofing](#gpu-spoofing) |
+| OS Features | 🔶 | verified: App Store, iTunes Store. Need [SMBIOS](#smbios) |
 | USB | 🔶 | need [USB Mapping](#usb-mapping) |
 | Ethernet | 🔶 | need [LAN Firmware Patching](#lan-firmware-patching) |
 | ThunderBolt | ❓ | lack devices |
