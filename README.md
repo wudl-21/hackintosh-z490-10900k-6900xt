@@ -24,16 +24,16 @@
 | Audio | ✔️ | verified: on DP |
 | Sleep & Power | ✔️ | verified: Sleep, Wake, Shutdown, Restart |
 | Wireless | ✔️ | verified: WiFi, Bluetooth, AirDrop |
-| OS Features | ✔️ | verified: App Store, iTunes Store. Need [SMBIOS](smbios) |
+| OS Features | ✔️ | verified: App Store, iTunes Store. Need [SMBIOS](#smbios) |
 | iGPU related | ✔️ | verified: VDA support |
-| dGPU related | 🔶 | need [GPU Spoofing](gpu-spoofing) |
+| dGPU related | 🔶 | need [GPU Spoofing](#gpu-spoofing) |
 | USB | 🔶 | need [USB Mapping](#usb-mapping) |
-| Ethernet | 🔶 | need [LAN firmware patching](lan-firmware-patching) |
+| Ethernet | 🔶 | need [LAN firmware patching](#lan-firmware-patching) |
 | ThunderBolt | ❓ | lack devices |
 * Legend: ✔️=working, 🔶=working but config needed, ❓=not verified
 
 # Before you start
-* To make the EFI working for your machine, you have to modify multiple entries in `config.plist` and ACPI files. Methods like ProperTree can do the job but are not that decent. It is highly recommended to use [these tools](useful-tools).
+* To make the EFI working for your machine, you have to modify multiple entries in `config.plist` and ACPI files. Methods like ProperTree can do the job but are not that decent. It is highly recommended to use [these tools](#useful-tools).
 
 # Get it working
 > I have downloaded the EFI folder and copied it into my EFI partition, what else should I do to make my hackintosh working?
