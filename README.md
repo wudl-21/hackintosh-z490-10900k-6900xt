@@ -1,3 +1,4 @@
+![macOS version](https://img.shields.io/badge/macOS-Monterey_12.7.5-purple) ![OC version](https://img.shields.io/badge/OpenCore-1.0.0-blue)
 # Overview
 ## Description
 * An EFI build for hackintoshes, using OpenCore as boot manager
